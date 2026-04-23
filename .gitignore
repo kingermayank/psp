@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+
+# local/system
+.DS_Store
+*.tsbuildinfo
+
+# external/nested project
+OpenXMB/
+
+# local source dumps / duplicates not needed for app runtime
+3d model/
+game_art/
+sound effects/
+reference.mp4
+skills/
