@@ -125,7 +125,16 @@ export default function App() {
   return (
     <main className="app-shell">
       <aside className="left-nav" aria-label="Playground navigation">
-        <p className="left-nav-title">Playground</p>
+        <p className="left-nav-title">Mayank&apos;s Playground</p>
+        <button
+          className={activeView === 'composite' ? 'left-nav-item active' : 'left-nav-item'}
+          type="button"
+          onClick={() => {
+            setActiveView('composite');
+          }}
+        >
+          3D + UI overlay
+        </button>
         <button
           className={activeView === 'model' ? 'left-nav-item active' : 'left-nav-item'}
           type="button"
@@ -143,15 +152,6 @@ export default function App() {
           }}
         >
           OpenXMB UI
-        </button>
-        <button
-          className={activeView === 'composite' ? 'left-nav-item active' : 'left-nav-item'}
-          type="button"
-          onClick={() => {
-            setActiveView('composite');
-          }}
-        >
-          3D + UI overlay
         </button>
       </aside>
 

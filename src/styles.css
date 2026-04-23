@@ -303,7 +303,7 @@ body {
   --xmb-focus-anchor-x: var(--xmb-category-anchor-x);
   --xmb-item-anchor-x: var(--xmb-category-anchor-x);
   --xmb-icon-row-y: clamp(2.25rem, 5.4vw, 3.2rem);
-  --xmb-category-icon-size: calc(clamp(2rem, 3.8vw, 2.65rem) + 16px);
+  --xmb-category-icon-size: calc(clamp(2rem, 3.8vw, 2.65rem) + 20px);
   --xmb-item-icon-size: calc(clamp(2rem, 3.8vw, 2.65rem) + 6px);
   --xmb-focus-y: calc(clamp(5.15rem, 12.2vw, 7.1rem) - 8px);
   --xmb-item-col-y: calc(clamp(7.55rem, 16.2vw, 9.95rem) - 16px);
@@ -390,7 +390,7 @@ body {
 
 .xmb-status-bar {
   position: absolute;
-  top: calc(clamp(0.48rem, 0.9vw, 0.8rem) - 4px);
+  top: calc(clamp(0.48rem, 0.9vw, 0.8rem) - 6px);
   right: clamp(0.62rem, 1.5vw, 1rem);
   z-index: 2;
   display: flex;
